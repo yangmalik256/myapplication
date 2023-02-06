@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background"
+    >
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+
+        android:text="PROFILE"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="267dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleX="0.9"
+        android:src="@drawable/malik" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="NAME: Taremwa abdulmalik"
+        android:textSize="26dp" />
+
+
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="38dp"
+        android:text="HOBBIES"
+        android:textSize="26dp"
+        android:textColor="@color/material_dynamic_tertiary60"
+        />
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="38dp"
+        android:text="1-watching football"
+        android:textSize="26dp"
+        />
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="38dp"
+        android:text="2-swimming"
+        android:textSize="26dp"
+        />
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="38dp"
+        android:text="3-learn new skills"
+        android:textSize="26dp"
+        />
+</LinearLayout>
